@@ -38,3 +38,13 @@ Thus, create a script to show each of the following:
 		o	Zero cloudiness
 •	Utilize Google Places API to find the first hotel for each city located within 5000 meters of the coordinates
 •	Plot the hotels on top of your humidity heatmap with each pin containing the Hotel Name, City, and Country
+
+----------------------------------------------------------------------------------------------------------------
+
+Observations
+
+Per the City Latitude vs High Temperature (03/09/3021) scatter plot, the highest temperature occurs closer to the equator (latitude of 0 – 10) and as we travel both up the northern hemisphere, and down the southern hemisphere, the temperature begins to drop/decrease. This is also supported by the linear regression. Northern Hemisphere vs High Temperature has a r squared of 0.79 indicating that as we travel further away from the equator, the temperature decreases. The Southern Hemisphere vs High Temperature linear regression plot also supports this analysis, as there is a correlation of 0.31. This indicate that as we travel closer to the equator, the temperature increases slightly, but not higher than the equator. 
+
+Per the City Latitude vs Cloudiness (03/09/3021) scatter plot, the result indicates both northern hemisphere and southern hemisphere obtain the percentage of clouds similarly. For example, from the plot, observing the 0 % of cloudiness, both northern and southern hemisphere have about similar number of cities who experience no clouds. This is also supported by the linear regression, indicating no correlation at 0.05 for the Northern Hemisphere and 0.09 for the Southern Hemisphere.  
+
+Per the Northern Hemisphere vs Cloudiness and Southern Hemisphere vs Wind Speed linear regression scatter plots, the result indicates that each hemisphere has no correlation with wind speed, at a R squared of 0.02. Thus, the city has no affect on the wind speed and vice versa. 
